@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidCourseActivities</string>
+    <string name="launch_second_activity">Launch second activity</string>
+</resources>
