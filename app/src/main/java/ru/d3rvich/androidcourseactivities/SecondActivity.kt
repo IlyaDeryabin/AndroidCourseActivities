@@ -13,6 +13,7 @@ class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
+        logLifecycleState("created")
 
         textView = findViewById<TextView?>(R.id.text_view).apply {
             text = intent.getIntExtra(EXTRA_COUNT, -1).square().toString()
